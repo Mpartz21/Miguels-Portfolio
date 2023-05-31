@@ -18,13 +18,12 @@ import {
     docker,
     ata,
     revature,
-    starbucks,
     tmobile,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    ust,
   } from '../assets';
   
   export const navLinks = [
@@ -116,7 +115,7 @@ import {
     {
       title: "Full Stack Developer",
       company_name: "UST-Global",
-      icon: starbucks,
+      icon: ust,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [

@@ -24,7 +24,7 @@ import threejs from "./tech/threejs.svg";
 import ata from "./company/ata.png";
 import revature from "./company/revature-logo.png";
 import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
+import ust from "./company/ust.png";
 import tmobile from "./company/tmobile.png";
 
 import carrent from "./carrent.png";
@@ -56,7 +56,7 @@ export {
   ata,
   revature,
   shopify,
-  starbucks,
+  ust,
   tmobile,
   carrent,
   jobit,

@@ -1,3 +1,4 @@
+import { r } from 'maath/dist/misc-7d870b3c.esm';
 import {
     mobile,
     backend,
@@ -15,9 +16,10 @@ import {
     git,
     figma,
     docker,
-    meta,
+    ata,
+    revature,
     starbucks,
-    tesla,
+    tmobile,
     shopify,
     carrent,
     jobit,
@@ -112,8 +114,8 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Full Stack Developer",
+      company_name: "UST-Global",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
@@ -125,10 +127,10 @@ import {
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      title: "Full Stack Developer",
+      company_name: "T-Mobile",
+      icon: tmobile,
+      iconBg: "#383E56",
       date: "Jan 2021 - Feb 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -138,9 +140,9 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Full Stack Developer",
+      company_name: "",
+      icon: revature,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
@@ -151,11 +153,11 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Associates Degree Graduate ",
+      company_name: "Advanced Training Associate College ",
+      icon: ata,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Dec 18 - Mar 20",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

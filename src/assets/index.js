@@ -21,10 +21,11 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
+import ata from "./company/ata.png";
+import revature from "./company/revature-logo.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import tmobile from "./company/tmobile.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,10 +53,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
+  ata,
+  revature,
   shopify,
   starbucks,
-  tesla,
+  tmobile,
   carrent,
   jobit,
   tripguide,

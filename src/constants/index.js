@@ -1,28 +1,25 @@
-import { r } from 'maath/dist/misc-7d870b3c.esm';
+import { h, r } from 'maath/dist/misc-7d870b3c.esm';
 import {
     mobile,
     backend,
-    creator,
     web,
-    javascript,
-    typescript,
-    html,
-    css,
+    angular,
+    aws,
+    csharp,
+    java,
+    python,
+    sql,
+    graphql,
     reactjs,
-    redux,
-    tailwind,
-    nodejs,
     mongodb,
     git,
-    figma,
     docker,
     ata,
     revature,
     tmobile,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+    project2,
+    project3,
+    nodejs,
     ust,
   } from '../assets';
   
@@ -57,111 +54,109 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
-  ];
+			{
+				name: 'Angular',
+				icon: angular,
+			},
+			{
+				name: 'AWS',
+				icon: aws,
+			},
+			{
+				name: 'C#',
+				icon: csharp,
+			},
+			{
+				name: 'docker',
+				icon: docker,
+			},
+			{
+				name: 'git',
+				icon: git,
+			},
+			{
+				name: 'GraphQL',
+				icon: graphql,
+			},
+			{
+				name: 'JAVA',
+				icon: java,
+			},
+			{
+				name: 'MongoDB',
+				icon: mongodb,
+			},
+      {
+        name: 'NodeJS',
+        icon: nodejs,
+      },
+			{
+				name: 'Python',
+				icon: python,
+			},
+			{
+				name: 'React JS',
+				icon: reactjs,
+			},
+			{
+				name: 'SQL',
+				icon: sql,
+			},
+		];
   
   const experiences = [
     {
       title: "Full Stack Developer",
       company_name: "UST-Global",
       icon: ust,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      iconBg: "#E6DEDD",
+      date: "Nov 21 - May 23",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained robust and scalable full-stack web applications using technologies such as Node.js, React, Angular, and MySQL.",
+        "Collaborated with cross-functional teams to design and implement new features and functionalities, following Agile methodologies and delivering projects on time and within budget.",
+        "Actively participated in the development of APIs, microservices, and serverless functions using technologies such as AWS Lambda, API Gateway, and Docker, among others.",
+        "Optimized performance and scalability of web applications by implementing caching strategies, load-balancing techniques, and serverless architectures.",
       ],
     },
     {
-      title: "Full Stack Developer",
+      title: "Production Support Engineer",
       company_name: "T-Mobile",
       icon: tmobile,
-      iconBg: "#383E56",
-      date: "Jan 2021 - Feb 2022",
+      iconBg: "#E6DEDD",
+      date: "Nov 21 - Apr 23",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Supported and maintained web-based applications and systems as a Full Stack Developer at T-Mobile.",
+        "Contributed to supporting, developing, and testing new features and enhancements using front-end and back-end technologies.",
+        "Collaborated with cross-functional teams to identify and resolve technical issues and optimize system performance.",
+        "Demonstrated a strong understanding of T-Mobile's business objectives and client needs, working closely with stakeholders to ensure alignment.",
+        "Provided Support for 2 products (Prism, Utopia) with plans to expand to more teams.",
+        "Utilized Jira to provide constant updates and inform the team of higher-level issues",
       ],
     },
     {
       title: "Full Stack Developer",
-      company_name: "",
+      company_name: "Revature LLC",
       icon: revature,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Jul 21 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Finished my extensive three-month training in MEAN stack including Java, Spring, Maven, Docker, JavaScript.",
+        "Collaborated with cross-functional teams to design, develop, and test software solutions.",
+        "Participated in Agile software development processes, including daily stand-up meetings, sprint planning, and retrospective sessions, to deliver quality software solutions on time and within budget.",
+        "Continuously improved technical skills and knowledge through Revature's training programs, including classroom and on-the-job training, coding challenges, and mentorship opportunities.",
       ],
     },
     {
-      title: "Associates Degree Graduate ",
+      title: "Associates of Applied Science ",
       company_name: "Advanced Training Associate College ",
       icon: ata,
       iconBg: "#E6DEDD",
-      date: "Dec 18 - Mar 20",
+      date: "Dec 18 - Feb 20",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed fundamentals of OOP and various programming languages; JAVA, C#, PHP, Jquery, HTML5/CSS3, JavaScript.",
+        "Obtained Microsoft Certificate: Introduction to Programming Using HTML and CSS.",
+        ".",
+        ".",
       ],
     },
   ];
@@ -169,77 +164,35 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Miguel is a highly motivated individual who is always eager to take on new challenges and expand his skill set. He was always open to feedback, and demonstrated a strong desire to improve and grow. He consistently demonstrated a willingness to learn, and asking insightful questions to ensure he fully understood the task at hand. Overall, I highly recommend Miguel for any role that requires a dedicated and hardworking software engineer.",
+      name: "Jeff Pajor",
+      designation: "Senior Consultant",
+      company: "Unify Consulting",
+      image: "",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Miguel Partida is an exceptional full-stack developer in production support, adept at efficiently managing and troubleshooting multiple products, delivering seamless operations and ensuring uninterrupted functionality.",
+      name: "Tariq Rana",
+      designation: "Project Manager",
+      company: "T-Mobile",
+      image: "",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Miguel Partida is an exceptional full-stack web developer who stands out for their remarkable ability to learn quickly, adapt to new technologies, and consistently deliver outstanding results, making them an invaluable asset to any team.",
+      name: "Zamantha Machado",
+      designation: "Team Leader",
+      company: "Blue Pearl",
+      image: "",
     },
   ];
   
   const projects = [
-    {
-      name: "Car Rent",
+      {
+      name: "Revved Up Reads",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Revved Up Reads is a social media application based around books and reading. The application will allow users to create an account and review a catalog of books. Revved Up Reads allows users to maintain their profile information including any books the user indicates that they are interested in. Users are able to connect with other users through friend requests and view more information from their friend's profiles. Finally Revved Up Reads supports the creation and maintenance of book clubs. Book clubs allow users to join and view the book currently being discussed.",
       tags: [
         {
           name: "nextjs",
@@ -254,8 +207,50 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: project3,
+      source_code_link: "https://github.com/AntyZhu1/project3",
+    },
+    {
+      name: "Game Review / Guide ",
+      description:
+        "A simple digital review website in which users can create an account, log in, view a list of games, and add and remove the books from a game list specific to each user",
+      tags: [
+        {
+          name: "Angular",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mySQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: project2,
+      source_code_link: "https://github.com/Mpartx21/Project-2.git",
+    },
+    {
+      name: "Employee Reimbursement Application",
+      description:
+        "The Expense Reimbursement System (ERS) will manage the process of reimbursing employees for expenses incurred while on company time. All employees in the company can log in and submit requests for reimbursement and view their past tickets and pending requests. Finance managers can log in and view all reimbursement requests and past history for all employees in the company. Finance managers are authorized to approve and deny requests for expense reimbursement.",
+      tags: [
+        {
+          name: "Angular",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Spring",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: '',
+      source_code_link: "https://github.com/Mpartx21/Project-1.git",
     },
   ];
 

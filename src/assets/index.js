@@ -7,29 +7,29 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import angular from "./tech/angular.png";
+import aws from "./tech/aws.png";
+import csharp from "./tech/csharp.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
+import graphql from "./tech/graphql.png";
 import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
+import java from "./tech/java8.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
+import python from "./tech/python.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import sql from "./tech/sql.png";
 
 import ata from "./company/ata.png";
 import revature from "./company/revature-logo.png";
-import shopify from "./company/shopify.png";
 import ust from "./company/ust.png";
 import tmobile from "./company/tmobile.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import project3 from "./project3.png";
+import project2 from "./project2.png";
+
 
 export {
   logoWhite,
@@ -42,23 +42,22 @@ export {
   close,
   css,
   docker,
-  figma,
-  git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
+  angular,
+  aws,
+  csharp,
+  java,
+  python,
   reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
+  nodejs,
+  project2,
+  project3,
+  sql,
+  git,
+  graphql,
+  html,
+  mongodb,
   ata,
   revature,
-  shopify,
   ust,
   tmobile,
-  carrent,
-  jobit,
-  tripguide,
 };

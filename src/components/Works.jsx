@@ -12,12 +12,13 @@ const ProjectCard = ({index, name, description, tags, image, source_code_Link}) 
 return (
   <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
     <Tilt
-    options={{
-      max: 45,
-      scale: 1,
-      speed: 450,
-    }}
-    className="bg-tertiary p-5 rounded-2xl sm:w-[260px] w-full">
+      options={{
+        max: 45,
+        scale: 1,
+        speed: 450,
+      }}
+      className="bg-tertiary p-5 rounded-2xl sm:w-[260px] w-full"
+    >
       <div className="relative w-full h-[230px]">
         <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl"/>
         <div className='absolute inset-0 flex justify-end m-3 car-img_hover'>
@@ -45,12 +46,12 @@ return (
 
 const Works = () => {
   return (
-    <>
+    <div className={`${styles.padding} min-h-[300px] flex-auto`}>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My Past Work</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
       </motion.div>
-      <div className='w-full flex flex-col'>
+      <div className='w-full flex-auto'>
         <motion.p variants={fadeIn("", "", 0.1, 1)}
         className='mt-3 text-secondary text-[17px] max-w-xl leading-[30px]'>
           {works.map((work) => (`${work.prelude}`))}
@@ -64,7 +65,7 @@ const Works = () => {
            index={index} 
            {...project}/>))}
       </div>
-    </>
+    </div>
   )
 }
 

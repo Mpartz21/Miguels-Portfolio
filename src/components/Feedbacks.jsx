@@ -1,3 +1,4 @@
+import {Tilt} from 'react-tilt'
 import { motion } from "framer-motion"
 import { styles } from "../styles"
 import SectionWrapper from "../hoc/SectionWrapper"
@@ -7,41 +8,48 @@ import { testimonials } from "../constants"
 const FeebackCard = ({ index, testimonial, name, designation, company, image }) => {
 
   return (
-    <motion.div variants={fadeIn("up", "spring", 0.5 * index, 0.75)}
-      className="bg-tertiary p-10 rounded-3xl sx:w-[320px] w-full"
-    >
-      <div className="flex flex-1 flex-col">
-       <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
-       <div className="mt-7 flex justify-between items-center gap-1">
-        <div className="flex-1 flex flex-col">
-          <p className="text-white font-medium text-[16px]">
-            <span className="blue-text-gradient">@</span>{name}
-          </p>
-          <p className="mt-1 text-secondary text-[12px]">
-            {designation} of {company}
-          </p>
+    <motion.div variants={fadeIn("up", "spring", 0.5 * index, 0.75)}>
+      <Tilt
+        options={{
+          max: 45,
+          scale: 1,
+          speed: 450,
+        }}
+        className="bg-tertiary p-5 rounded-2xl sx:w-[260px] w-full"
+      >
+        <div className="relative flex-auto flex-col">
+        <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
+        <div className="mt-7 flex justify-between items-center gap-1">
+          <div className="flex-1 flex flex-col">
+            <p className="text-white font-medium text-[16px]">
+              <span className="blue-text-gradient">@</span>{name}
+            </p>
+            <p className="mt-1 text-secondary text-[12px]">
+              {designation} of {company}
+            </p>
+          </div>
+          <img
+          src ={image}
+          alt = {name}
+          className="w-10 h-10 rounded-full object-cover"
+          />
         </div>
-        <img
-        src ={image}
-        alt = {name}
-        className="w-10 h-10 rounded-full object-cover"
-        />
-       </div>
-      </div>    
+        </div>
+      </Tilt>    
     </motion.div>
   )
 }
 
 const Feedbacks = () => {
   return (
-    <div className="mt-20 bg-primary rounded-[20px]">
-      <div className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}>
+    <div className="mt-10 w-full flex-col">
+      <div className={`${styles.padding} rounded-2xl`}>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What others say </p>
           <h2 className={styles.sectionHeadText}>Testimonials.</h2>
         </motion.div>
       </div>
-      <div className={`${styles.paddingX}-mt-20 pb-14 flex flex-gap gap-7 bg-primary rounded-2xl`}>
+      <div className={`flex gap-7 flex flex-wrap `}>
         {testimonials.map((testimonial, index) => (
           <FeebackCard className="bg-tertiary" key={testimonial.name} index={index} 
           {...testimonial} />

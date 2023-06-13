@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logoWhite, menu, close } from '../assets';
+import {  menu, close } from '../assets';
 import SectionWrapper from '../hoc/SectionWrapper';
 
 const Navbar = () => {
@@ -23,11 +23,6 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}
 				>
-					<img
-						src={logoWhite}
-						alt='logo'
-						className='w-9 h-9 object-contain'
-					/>
 					<p className='text-white text-18[18px] font-bold cursor-pointer flex'>
 						Miguel Partida &nbsp;<span className='sm:block hidden'>| Full Stack Developer </span>
 					</p>

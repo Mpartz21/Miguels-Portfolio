@@ -155,8 +155,6 @@ import {
       points: [
         "Developed fundamentals of OOP and various programming languages; JAVA, C#, PHP, Jquery, HTML5/CSS3, JavaScript.",
         "Obtained Microsoft Certificate: Introduction to Programming Using HTML and CSS.",
-        ".",
-        ".",
       ],
     },
   ];

@@ -4,7 +4,7 @@ import SectionWrapper from '../hoc/SectionWrapper'
 
 const Hero = () => {
   return (
-    <section className="relative mx-auto"> 
+    <section className="relative h-screen mx-auto"> 
       <ComputersCanvas/>
       <div className="absolute xs:bottom-10 bottom-32 flex w-full justify-center items-center">
         <a href='#about'>

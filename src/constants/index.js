@@ -21,6 +21,9 @@ import {
     project3,
     nodejs,
     ust,
+    jeffpfp,
+    tariqpfp,
+    zamanthapfp,
   } from '../assets';
   
   export const navLinks = [
@@ -166,7 +169,7 @@ import {
       name: "Jeff Pajor",
       designation: "Senior Consultant",
       company: "Unify Consulting",
-      image: "",
+      image: jeffpfp,
     },
     {
       testimonial:
@@ -174,7 +177,7 @@ import {
       name: "Tariq Rana",
       designation: "Project Manager",
       company: "T-Mobile",
-      image: "",
+      image: tariqpfp,
     },
     {
       testimonial:
@@ -182,7 +185,7 @@ import {
       name: "Zamantha Machado",
       designation: "Team Leader",
       company: "Blue Pearl",
-      image: "",
+      image: zamanthapfp,
     },
   ];
   

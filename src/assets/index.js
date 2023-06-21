@@ -30,10 +30,17 @@ import tmobile from "./company/tmobile.png";
 import project3 from "./project3.png";
 import project2 from "./project2.png";
 
+import jeffpfp from "./pfp/jeffpfp.jpg";
+import tariqpfp from "./pfp/tariqpfp.jpg";
+import zamanthapfp from "./pfp/zamathapfp.jpg";
+
 
 export {
   logoWhite,
   backend,
+  jeffpfp,
+  tariqpfp,
+  zamanthapfp,
   creator,
   mobile,
   web,

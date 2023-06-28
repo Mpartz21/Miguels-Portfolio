@@ -1,4 +1,3 @@
-import logoWhite from "./logoWhite.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -36,7 +35,6 @@ import zamanthapfp from "./pfp/zamathapfp.jpg";
 
 
 export {
-  logoWhite,
   backend,
   jeffpfp,
   tariqpfp,

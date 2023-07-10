@@ -17,6 +17,7 @@ import {
     ata,
     revature,
     tmobile,
+    project1,
     project2,
     project3,
     nodejs,
@@ -247,7 +248,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: '',
+      image: project1,
       source_code_link: "https://github.com/Mpartx21/Project-1.git",
     },
   ];

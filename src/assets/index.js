@@ -28,6 +28,7 @@ import tmobile from "./company/tmobile.png";
 
 import project3 from "./project3.png";
 import project2 from "./project2.png";
+import project1 from "./project1.png";
 
 import jeffpfp from "./pfp/jeffpfp.jpg";
 import tariqpfp from "./pfp/tariqpfp.jpg";
@@ -54,6 +55,7 @@ export {
   python,
   reactjs,
   nodejs,
+  project1,
   project2,
   project3,
   sql,

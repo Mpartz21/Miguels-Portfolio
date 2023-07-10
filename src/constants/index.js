@@ -168,7 +168,6 @@ import {
         "Miguel is a highly motivated individual who is always eager to take on new challenges and expand his skill set. He was always open to feedback, and demonstrated a strong desire to improve and grow. He consistently demonstrated a willingness to learn, and asking insightful questions to ensure he fully understood the task at hand. Overall, I highly recommend Miguel for any role that requires a dedicated and hardworking software engineer.",
       name: "Jeff Pajor",
       designation: "Senior Consultant",
-      company: "Unify Consulting",
       image: jeffpfp,
     },
     {
@@ -176,7 +175,6 @@ import {
         "Miguel Partida is an exceptional full-stack developer in production support, adept at efficiently managing and troubleshooting multiple products, delivering seamless operations and ensuring uninterrupted functionality.",
       name: "Tariq Rana",
       designation: "Project Manager",
-      company: "T-Mobile",
       image: tariqpfp,
     },
     {
@@ -184,7 +182,6 @@ import {
         "Miguel Partida is an exceptional full-stack web developer who stands out for their remarkable ability to learn quickly, adapt to new technologies, and consistently deliver outstanding results, making them an invaluable asset to any team.",
       name: "Zamantha Machado",
       designation: "Team Leader",
-      company: "Blue Pearl",
       image: zamanthapfp,
     },
   ];

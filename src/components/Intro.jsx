@@ -10,7 +10,7 @@ const IntroTop = () => {
             </div>
             <div>
                 <h1 className={`${styles.heroHeadText} text-white`}>Hello, I'm <span className="text-[#915eff]"> Miguel Partida</span></h1>
-                <p className={`${styles.heroSubText} = text-white-100`}>
+                <p className={`${styles.heroSubText} = text-white-100 gap-5 mx-auto`}>
                     I develop web applications from scratch<br className='sm:block hidden'/> I am a full stack developer with experience in the MERN stack.
                 </p>
             </div>
